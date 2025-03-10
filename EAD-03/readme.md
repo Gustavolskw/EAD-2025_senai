@@ -59,4 +59,4 @@ Este projeto é de código aberto e pode ser modificado livremente para fins edu
 
 ---
 
-✉️ **Autor:** Gustavo Luis | 🌎 **Faculdade 2025**
+✉️ **Autor:** Gustavo Luis | 🌎 **UniSenai 2025**
