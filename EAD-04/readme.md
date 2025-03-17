@@ -48,14 +48,3 @@ Este projeto é uma aplicação web simples para cadastro de usuários, incluind
 ✅ **Cartão de crédito** formatado automaticamente.
 ✅ **Aceitação dos termos** obrigatória antes do envio.
 
-## 📝 Contribuição
-
-Se desejar contribuir, faça um **fork** do repositório, crie uma nova **branch** com suas alterações e envie um **pull request**. Qualquer melhoria ou sugestão será bem-vinda!
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-lo conforme necessário.
-
----
-
-Desenvolvido com ❤️ para aprendizado e prática de desenvolvimento web.
