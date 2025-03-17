@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War Era</title>
+    <link rel="shortcut icon" href="img/world-war-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navBar" class=" navbar navbar-expand-lg nav-bar-theme" id="navBar">
+            <div class="container-fluid">
+                <img src="/img/Medla-Main-icon.png" class="img-icon" alt="Icon">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold fs-2 text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold fs-2 text-white" href="#tanques">Tanques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold fs-2 text-white" href="#avioes">Aviões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold fs-2 text-white" href="#pontos-importantes">Pontos
+                                Importantes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="/img/World-movie-main.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+    </div>
+
+    <section class="main-content d-flex justify-content-center align-items-center flex-column py-1">
+        <div id="carouselExampleCaptions" class="carousel slide w-75 mx-auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner rounded overflow-hidden shadow-lg">
+                <div class="carousel-item active">
+                    <img src="/img/Brithish-flag.png" class="carousel-img" alt="British Flag">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h5 class="bg-white">Bandeira do Reino Unido</h5>
+                        <p class="bg-white">Bandeira do Reino Unido durante a Segunda Guerra Mundial
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/img/Gmerny War Flag.webp" class="carousel-img" alt="Germany Flag">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 style="backdrop-filter: blur(8px);">Bandeira da Alemanha</h5>
+                        <p style="backdrop-filter: blur(8px);">Bandeira da Alemanha durante a Segunda Guerra Mundial.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/img/USSR-flag.webp" class="carousel-img" alt="USSR Flag">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="backdrop-filter: blur(8px);">bandeira da União Soviética</h5>
+                        <p style="backdrop-filter: blur(8px);">Bandeira da União Soviética durante a Segunda Guerra
+                            Mundial</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="/img/USA-Flag.png" class="carousel-img" alt="USA Flag">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="bg-dark">Bandeira dos Estados Unidos</h5>
+                        <p class="bg-dark">Bandeira da Estados Unidos durante a Segunda Guerra
+                            Mundial
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="tanques" class="separador">
+        <div class="background-trasnp">
+            <h3 class="py-5 text-center fs-1">Tanques</h3>
+        </div>
+        <div class="w-50 mx-auto ">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Alemanha
+                <img src="/img/Gmerny War Flag.webp" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/PanzerIV.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Panzer IV</h5>
+                        <p class="card-text">Tanque médio amplamente utilizado, conhecido por sua versatilidade e várias
+                            atualizações ao longo da guerra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/TigerI.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiger I</h5>
+                        <p class="card-text">Tanque pesado famoso por seu poderoso armamento e blindagem robusta,
+                            tornando-se um dos mais temidos no campo de
+                            batalha.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Panther.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Panther (Panzer V)</h5>
+                        <p class="card-text">Combinação de mobilidade, poder de fogo e proteção, considerado um dos
+                            melhores tanques da guerra.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">União Soviética (URSS)
+                <img src="/img/USSR-flag.webp" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/T-34.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">T-34</h5>
+                        <p class="card-text">Tanque médio revolucionário, reconhecido por sua eficiência e considerado
+                            um dos melhores da guerra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/KV-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">KV-1</h5>
+                        <p class="card-text">Tanque pesado com blindagem espessa, desempenhou papel crucial nas batalhas
+                            iniciais contra as forças alemãs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Estados Unidos (EUA)
+                <img src="/img/USA-Flag.png" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/M4 Sherman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">M4 Sherman</h5>
+                        <p class="card-text">Tanque médio padrão das forças aliadas, conhecido por sua confiabilidade e
+                            facilidade de produção em massa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/M26 Pershing.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">M26 Pershing</h5>
+                        <p class="card-text">Tanque pesado introduzido no final da guerra, com armamento e blindagem
+                            superiores ao Sherman.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Reino Unido
+                <img src="/img/Brithish-flag.png" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Cromwell.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cromwell</h5>
+                        <p class="card-text">Tanque cruzador britânico, conhecido por sua velocidade e mobilidade no
+                            campo de batalha.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Churchill.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Churchill</h5>
+                        <p class="card-text">Tanque de infantaria com blindagem pesada, utilizado em diversas operações,
+                            incluindo o Dia D.​
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="avioes" class="separador">
+        <div class="background-trasnp">
+            <h3 class="py-5 text-center fs-1">Avioẽs</h3>
+        </div>
+        <div class="w-50 mx-auto ">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Alemanha
+                <img src="/img/Gmerny War Flag.webp" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Messerschmitt Bf 109.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Messerschmitt Bf 109</h5>
+                        <p class="card-text">Caça principal da Luftwaffe, utilizado em diversas funções e teatros de
+                            operações.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Focke-Wulf Fw 190.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Focke-Wulf Fw 190</h5>
+                        <p class="card-text">Caça robusto e versátil, considerado um dos melhores da guerra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Heinkel He 111.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Heinkel He 111</h5>
+                        <p class="card-text">Bombardeiro médio amplamente empregado em missões de bombardeio
+                            estratégico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">União Soviética (URSS)
+                <img src="/img/USSR-flag.webp" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Ilyushin Il-2 Sturmovik.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ilyushin Il-2 Sturmovik</h5>
+                        <p class="card-text">Avião de ataque ao solo, apelidado de "Tanque Voador" devido à sua
+                            resistência e poder de fogo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Yakovlev Yak-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yakovlev Yak-3</h5>
+                        <p class="card-text">Caça leve e ágil, respeitado tanto por pilotos soviéticos quanto por
+                            adversários.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Lavochkin La-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lavochkin La-5</h5>
+                        <p class="card-text">Caça robusto que contribuiu significativamente para a superioridade aérea
+                            soviética nos anos finais da guerra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Estados Unidos (EUA)
+                <img src="/img/USA-Flag.png" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/P-51 Mustang.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">P-51 Mustang</h5>
+                        <p class="card-text">Caça de longo alcance que escoltava bombardeiros aliados, contribuindo para
+                            a superioridade aérea.​</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/B-17 Flying Fortress.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">B-17 Flying Fortress</h5>
+                        <p class="card-text">Bombardeiro pesado utilizado em missões estratégicas sobre a Europa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/F4U Corsair.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">F4U Corsair</h5>
+                        <p class="card-text">Caça embarcado notável por sua velocidade e capacidade de manobra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-50 mx-auto mt-5">
+            <h3 class="background-trasnp py-5 mb-4 text-center fs-1 border-0 rounded border px-2">Reino Unido
+                <img src="/img/Brithish-flag.png" class="img-icon" alt="Icon">
+            </h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Supermarine Spitfire.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Supermarine Spitfire</h5>
+                        <p class="card-text">Caça icônico que desempenhou papel vital na Batalha da Grã-Bretanha.​</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Hawker Hurricane.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hawker Hurricane</h5>
+                        <p class="card-text">Outro caça crucial na defesa britânica, responsável por abater a maioria
+                            dos aviões inimigos durante a Batalha da
+                            Grã-Bretanha.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Avro Lancaster.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Avro Lancaster</h5>
+                        <p class="card-text">Bombardeiro pesado utilizado em missões noturnas de bombardeio estratégico
+                            sobre a Alemanha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="pontos-importantes" class="separador">
+        <div class="background-trasnp mb-5">
+            <h3 class="py-5 text-center fs-1">Pontos Importantes</h3>
+        </div>
+        <div class="mx-2 my-2 row justify-content-center w-100 mx-auto">
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Stalingrado.jpg" class="card-img-top" alt="Batalha de Stalingrado">
+                    <div class="card-body">
+                        <h5 class="card-title">Batalha de Stalingrado</h5>
+                        <p class="card-text">
+                            O confronto mais brutal da Segunda Guerra. De julho de 1942 a fevereiro de 1943, a vitória
+                            soviética
+                            marcou o início do declínio da Alemanha nazista.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Batalha de Kursk.jpeg" class="card-img-top" alt="Batalha de Kursk">
+                    <div class="card-body">
+                        <h5 class="card-title">Batalha de Kursk</h5>
+                        <p class="card-text">
+                            O maior confronto de tanques da história. Em julho de 1943, a vitória soviética consolidou a
+                            ofensiva
+                            contra os alemães, forçando-os à defensiva até o fim da guerra.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/Dia D – O Desembarque na Normandia.jpg" class="card-img-top" alt="Dia D">
+                    <div class="card-body">
+                        <h5 class="card-title">Dia D – O Desembarque na Normandia</h5>
+                        <p class="card-text">
+                            A invasão que mudou o rumo da guerra. Em 6 de junho de 1944, os Aliados desembarcaram na
+                            Normandia,
+                            abrindo um novo front contra os nazistas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/A Queda de Berlim.jpg" class="card-img-top" alt="Queda de Berlim">
+                    <div class="card-body">
+                        <h5 class="card-title">A Queda de Berlim</h5>
+                        <p class="card-text">
+                            O fim do Terceiro Reich. Entre abril e maio de 1945, a tomada de Berlim pelas tropas
+                            soviéticas
+                            resultou
+                            na rendição da Alemanha nazista em 8 de maio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="contato" class="container py-5 separador">
+        <div class="background-trasnp pb-5 border border-0 rounded">
+            <div class=" mb-5">
+                <h3 class="py-5 text-center fs-1">Entre em Contato</h3>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail"
+                                required>
+                            <div id="emailFeedback" class="invalid-feedback">
+                                Por favor, insira um e-mail válido.
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="text" class="form-control" id="telefone" placeholder="(99) 99999-9999"
+                                required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+
+                    <div id="alertSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                        ✅ Contato enviado com sucesso!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="mt-5 pt-5 d-flex w-100 justify-content-center" id="video">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <video src="/img/DEAD-T-34.mp4" muted loop autoplay playsinline class="video-final"></video>
+            </div>
+            <div class="col-md-4 col-12">
+                <video src="/img/T-34.mp4" muted loop autoplay playsinline class="video-final"></video>
+            </div>
+            <div class="col-md-4 col-12">
+                <video src="/img/WarTanks.mp4" muted loop autoplay playsinline class="video-final"></video>
+            </div>
+        </div>
+
+    </section>
+    <section>
+    </section>
+
+
+    <footer class="mt-4 pt-5">
+        <p class="background-trasnp  text-center text-white py-4">Copyright &copy; Escola sistemica 2025</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

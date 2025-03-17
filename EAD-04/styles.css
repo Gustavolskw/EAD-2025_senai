@@ -1,0 +1,42 @@
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-content {
+    margin-left: 15%;
+    width: 85%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 75%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1000;
+        position: fixed;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    #toggleSidebar {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1100;
+    }
+}
