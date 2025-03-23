@@ -559,4 +559,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ### **Conclusão**
 
-A versão otimizada do projeto reflete boas práticas de desenvolvimento web: semântica moderna, separação de responsabilidades, responsividade e eficiência. As páginas de cadastro, contato e "sobre" foram reformuladas para serem mais acessíveis, fáceis de manter e performáticas, enquanto a versão não otimizada apresenta código desorganizado, redundante e pouco escalável. Esta documentação consolida todos os arquivos como partes de um único projeto coeso. Se precisar de mais detalhes ou ajustes, é só avisar!
+A versão otimizada do projeto reflete boas práticas de desenvolvimento web: semântica moderna, separação de responsabilidades, responsividade e eficiência. As páginas de cadastro, contato e "sobre" foram reformuladas para serem mais acessíveis, fáceis de manter e performáticas, enquanto a versão não otimizada apresenta código desorganizado, redundante e pouco escalável. Esta documentação consolida todos os arquivos como partes de um único projeto coeso.
