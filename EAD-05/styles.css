@@ -1,0 +1,138 @@
+body {
+    background: lightgrey;
+    font-family: Verdana;
+}
+
+h1 {
+    color: blue;
+}
+
+nav {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.main-content {
+    margin-top: 2rem;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 400px;
+    /* Altura fixa */
+    overflow: hidden;
+    /* Impede que estoure */
+}
+
+.lista-users {
+    max-height: 400px;
+    /* Pode ajustar conforme o design */
+    overflow-y: auto;
+    /* Rola só na vertical */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #ccc;
+}
+
+.lista-users li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.btn-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.btn {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn-enviar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-reset {
+    background-color: #a5a200;
+    color: black;
+}
+
+.btn-nav {
+    background-color: rgba(0, 170, 212, 0.685);
+}
+
+.btn-enviar:hover {
+    background: linear-gradient(90deg, #66bb6a, #388e3c);
+}
+
+.btn-reset:hover {
+    background: linear-gradient(90deg, #e6e600, #999900);
+}
