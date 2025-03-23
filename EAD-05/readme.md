@@ -1,7 +1,3 @@
-Vou consolidar a documentação de todos os códigos enviados anteriormente em um único projeto, separando as versões **otimizada** e **não otimizada**. A análise será organizada por tipo de arquivo (HTML, CSS, JavaScript), destacando as melhorias implementadas na versão otimizada em comparação com a não otimizada. Incluirei os códigos relevantes e explicarei as diferenças, considerando que todos fazem parte do mesmo projeto.
-
----
-
 ### **Documentação do Projeto: Cadastro e Contato de Usuários**
 
 O projeto consiste em três páginas principais: cadastro de usuários (`index.html`), formulário de contato (`contato.html`), e página "Sobre" (`sobre.html`), com seus respectivos arquivos CSS e JavaScript. Abaixo, apresento a documentação completa.
